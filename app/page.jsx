@@ -192,7 +192,9 @@ const WF_TAG = {
 // UTILITY
 // ============================================================
 
-function rafFmt(r)  { return `+${r.toFixed(3)}`; }
+function rafFmt(r) {
+  return `+${r.toFixed(3)}`;
+}
 
 const MEAT_LABELS = { monitor: "Monitor", evaluate: "Evaluate", assess: "Assess", treat: "Treat" };
 const MEAT_KEYS   = ["monitor", "evaluate", "assess", "treat"];
